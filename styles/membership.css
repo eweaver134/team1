@@ -175,4 +175,18 @@ footer p {
 	font-size: 80%;
 	text-align: right;
 }
-
+table, td, th{
+	border:1px solid #ddd;
+	padding: 5.3px 5px;
+	text-align:center;
+	border-collapse:collapse;
+}
+table a{
+	text-decoration:none;
+}
+tr:nth-child(even){
+	background-color:#f2f2f2;
+}
+tr:hover{
+	background-color:lightblue;
+}
