@@ -14,9 +14,6 @@ body {
 	padding: 15px 25px;
 	border: 1px solid black;
 }
-article{
-	text-align:center;
-}
 article, aside, h1, h2, p, ul {
 	margin: 0;
 	padding: 0;
@@ -67,6 +64,9 @@ input, select {
     width: 15em;
     margin-left: 0.5em;
     margin-bottom: 0.5em;
+}
+input{
+	display:inline-block;
 }
 /* add input, buttons input style here */
 input:required {
