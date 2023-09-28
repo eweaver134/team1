@@ -57,7 +57,11 @@ label {
 	float:left;
 	text-align: right;
 	margin-bottom: 0.5em;
+	width:12em;
        }
+form{
+	text-align:center;
+}
 
 input, select {
     width: 15em;
