@@ -194,3 +194,7 @@ tr:nth-child(even){
 tr:hover{
 	background-color:lightblue;
 }
+
+#passed {
+	background-color: cyan;
+}
