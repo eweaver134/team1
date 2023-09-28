@@ -47,7 +47,17 @@ fieldset {
     padding-top: .5em;
 }
 /* add legend, label style here */
-
+legend {
+	font-size: 85%;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+	color: green;
+       }
+.label {
+	float:left;
+	text-align: right;
+	margin-bottom: 0.5em;
+       }
 
 input, select {
     width: 15em;
@@ -55,7 +65,21 @@ input, select {
     margin-bottom: 0.5em;
 }
 /* add input, buttons input style here */
+input, required {
+	border: 3px solid red; 
+}
 
+input, optional {
+	border: 2px solid blue;
+}
+
+input[type="submit"] {
+	width: 7em;
+}
+
+input[type="reset"] {
+	width: 7em;
+}
  
 /* the styles for the header */
 header {
@@ -98,6 +122,10 @@ header img {
 
 #nav_bar a:visited { color: green; }
 #nav_bar a.current { color: blue; }
+
+#nav_bar a {
+	text-decoration: none;
+}
 
 /* the styles for the article */
 article {
